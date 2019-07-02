@@ -9,10 +9,10 @@
 // FUNCTION 1 and INPUT
 	
 function doInputOutput() {
-    let actualtemp = document.getElementById('temp').value; 
+    let actualtemp = parseFloat(document.getElementById('temp').value); 
         
         
-    let windspeed = document.getElementById('speed').value;
+    let windspeed = parseFloat(document.getElementById('speed').value);
         
     let windchill = windChill(actualtemp, windspeed); 
         document.getElementById('output').innerHTML = windchill;
