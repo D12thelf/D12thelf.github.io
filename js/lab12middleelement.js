@@ -27,7 +27,7 @@ function combineFunctions() {
       return list[middle];
     } else {
       // If the array has a even number of values. 
-      return list[middle] + list[middle+1]
+      return (list[middle] + list[middle+1])
           / 2;
            
     }
